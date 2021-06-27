@@ -1,0 +1,20 @@
+// * SIGNIFICA QUE VAI SER APLICADO PARA TUDO
+// BOX-SIZING: BORDER-BOX > EXEMPLO: AO APLICAR UMA BORDA DE 20PX EM UM ELEMENTO COM WIDTH 100PX, AO INVÉS DESSE ELEMENTO TER UM TAMANHO TOTAL DE 140PX, ELE CONTINUA COM O TAMANHO ORIGINAL DE 100PX
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8f8f8;
+  color: #29292e;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 16px "Roboto", sans-serif;
+}
